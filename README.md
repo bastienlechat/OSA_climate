@@ -1,5 +1,4 @@
-This repository contains data and code to reproduce results from two recent manuscript 1) the effect of temperature on obstructive sleep apnea severity 
-and 2) the effect of ambient temperature on sleep duration and short sleep.
+This repository contains data and code to reproduce results from two recent manuscript.
 
 # Obstructive sleep apnea and ambient temperature
 1. Lechat, B., et al. (2025). "Global warming may increase the burden of obstructive sleep apnea." XXXX.
