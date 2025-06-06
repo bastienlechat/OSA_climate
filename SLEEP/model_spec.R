@@ -1,3 +1,12 @@
+
+dp$dependant_var <- dp$t2m_mean
+
+dp$idfactor <- do.call(paste, c(dp[,c('userid','year','month')], sep="-"))
+dp$idfactor <- as.factor(dp$idfactor)
+
+dp$idfactor2 <- do.call(paste, c(dp[,c('userid','year','week')], sep="-"))
+dp$idfactor2 <- as.factor(dp$idfactor2)
+
 #######################################################
 ## Cross-sectional models (between individuals)
 
@@ -18,7 +27,7 @@ t2m <- onebasis(dp$dependant_var,fun="ns",df=4)
 
 t2m_lin <- onebasis(dp$dependant_var,fun="lin")
 
-dftrend <- round(as.numeric(diff(range(dp$day))/365.25 * 6))
+dftrend <- round(as.numeric(diff(range(dp$day))/365.25 * 8))
 btrend <- ns(dp$day, knots=19)
 
 
