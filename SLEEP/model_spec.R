@@ -27,7 +27,7 @@ t2m <- onebasis(dp$dependant_var,fun="ns",df=4)
 
 t2m_lin <- onebasis(dp$dependant_var,fun="lin")
 
-dftrend <- round(as.numeric(diff(range(dp$day))/365.25 * 8))
+dftrend <- round(as.numeric(diff(range(dp$day))/365.25 * 6))
 btrend <- ns(dp$day, knots=19)
 
 
