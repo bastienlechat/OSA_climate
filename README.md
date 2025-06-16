@@ -1,7 +1,7 @@
 This repository contains data and code to reproduce results from two recent manuscript.
 
 # Obstructive sleep apnea and ambient temperature
-1. Lechat, B., et al. (2025). "Global warming may increase the burden of obstructive sleep apnea." XXXX.
+1. Lechat, B., Manners, J., Pinilla, L. et al. Global warming may increase the burden of obstructive sleep apnea. Nat Commun 16, 5100 (2025). https://doi.org/10.1038/s41467-025-60218-1
 
 - Contained in the OSA folder. 
 - /figures_and_tables folder contains all the data and code needed top reproduce figures and tables from the manuscript and supplementary
